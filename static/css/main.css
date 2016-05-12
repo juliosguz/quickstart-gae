@@ -1,0 +1,30 @@
+body {
+  color: #212121;
+  font-size: 16px;
+  margin: 1em;
+}
+.people {
+  border: 1px solid #212121;
+  border-radius: 10px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+.people__image img {
+  width: 100%;
+}
+.people__body {
+  padding: 1em;
+}
+@media only screen and (min-width: 32.14em) {
+  .world {
+    max-width: 22em;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uc3R5bCIsIm1haW4uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZUFBQTtFQUNBLGdCQUFBO0VBQ0EsWUFBQTtDQ0NEO0FEQ0Q7RUFDRSwwQkFBQTtFQUNBLG9CQUFBO0VBQ0Esc0JBQUE7RUFBQSxxQkFBQTtFQUFBLGNBQUE7RUFDQSwrQkFBQTtNQUFBLDJCQUFBO1VBQUEsdUJBQUE7RUFDQSxpQkFBQTtDQ0NEO0FEQ0c7RUFDRSxZQUFBO0NDQ0w7QURBQztFQUNFLGFBQUE7Q0NFSDtBREF5QztFQUN4QztJQUNFLGdCQUFBO0lBQ0EsZUFBQTtHQ0VEO0NBQ0YiLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5XG4gIGNvbG9yICMyMTIxMjFcbiAgZm9udC1zaXplIDE2cHhcbiAgbWFyZ2luIDFlbVxuXG4ucGVvcGxlXG4gIGJvcmRlciAxcHggc29saWQgIzIxMjEyMVxuICBib3JkZXItcmFkaXVzIDEwcHhcbiAgZGlzcGxheSBmbGV4XG4gIGZsZXgtZGlyZWN0aW9uIGNvbHVtblxuICBvdmVyZmxvdyBoaWRkZW5cbiAgJl9faW1hZ2VcbiAgICBpbWdcbiAgICAgIHdpZHRoIDEwMCVcbiAgJl9fYm9keVxuICAgIHBhZGRpbmcgMWVtXG5cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMzIuMTRlbSlcbiAgLndvcmxkXG4gICAgbWF4LXdpZHRoIDIyZW1cbiAgICBtYXJnaW4gMCBhdXRvXG4iLCJib2R5IHtcbiAgY29sb3I6ICMyMTIxMjE7XG4gIGZvbnQtc2l6ZTogMTZweDtcbiAgbWFyZ2luOiAxZW07XG59XG4ucGVvcGxlIHtcbiAgYm9yZGVyOiAxcHggc29saWQgIzIxMjEyMTtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbn1cbi5wZW9wbGVfX2ltYWdlIGltZyB7XG4gIHdpZHRoOiAxMDAlO1xufVxuLnBlb3BsZV9fYm9keSB7XG4gIHBhZGRpbmc6IDFlbTtcbn1cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMzIuMTRlbSkge1xuICAud29ybGQge1xuICAgIG1heC13aWR0aDogMjJlbTtcbiAgICBtYXJnaW46IDAgYXV0bztcbiAgfVxufVxuIl0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */

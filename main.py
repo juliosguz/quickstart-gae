@@ -3,7 +3,7 @@ import urllib
 
 import jinja2
 import webapp2
-#import htmlmin
+import htmlmin
 
 
 JINJA_ENVIRONMENT = jinja2.Environment(
@@ -13,11 +13,8 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 
 class Home(webapp2.RequestHandler):
     def get(self):
-        template_values = {
-            'user': 'This is a user :)'
-        }
         template = JINJA_ENVIRONMENT.get_template('index.html')
-        self.response.write(template.render(template_values))
+        self.response.write(htmlmin.minify(template.render()))
 
 app = webapp2.WSGIApplication([
     ('/', Home)

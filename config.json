@@ -1,0 +1,33 @@
+{
+	"app" :
+	{
+		"js" :
+		{
+			"sources" : [
+				"assets/app/**/*.js"
+			],
+			"jsHintReporter" : "jshint-stylish",
+			"tmpDirectory" : "static/app",
+			"entry": "assets/app/entry.js"
+		},
+		"css" :
+		{
+			"sources" : [
+    			"assets/css/*.styl",
+					"!assets/css/_*.styl"
+  			],
+			"tmpDirectory" : "static/css",
+			"entry" : "assets/css/main.styl"
+		}
+	},
+	"files"	 :
+	{
+		"watch":
+		{
+			"html" : ["**/*.{html,py}"],
+			"styles" : ["assets/css/**/*.{styl,css}"],
+			"js" : ["assets/app/**/*.js"],
+			"img" : ["static/images/**/*"]
+		}
+	}
+}
