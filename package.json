@@ -5,7 +5,7 @@
   "scripts": {
     "deploy-app": "appcfg.py -A YOUR_PROJECT_ID -V v1 update .",
     "deploy-modules": "appcfg.py -A PROJECT_ID update_dispatch .",
-    "appengine": "dev_appserver.py app.yaml --port=8181 ",
+    "appengine": "dev_appserver.py app.yaml --skip_sdk_update_check=yes --port=8181 --admin_port=8183",
     "initial-layout": "gulp server",
     "start": "concurrently --kill-others \"npm run appengine\" \"npm run initial-layout\" "
   },
